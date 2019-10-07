@@ -1,0 +1,77 @@
+/* setup the spread */
+
+body {
+  background-image:url('image/giphy.gif');
+  margin:0;
+  padding:0;
+  height:100vh;
+  display:grid;
+  align-items:center;
+  justify-items: center;
+}
+
+
+img{
+  width:350px;
+  margin-left:35px;
+  margin-top:7px;
+}
+
+.folio {
+  height:750px;
+  width:420px;
+  margin:20px auto;
+  overflow:scroll;
+}
+.page {
+  height:4434px;
+  width:420px;
+  border:1px solid #ccc;
+  float:left;
+  box-sizing:border-box;
+  position:relative;
+}
+
+.pageone{
+  background-color:black;
+}
+
+
+
+.pagetwo{
+  background-color:white;
+}
+
+#pageTwo {
+  margin-left:-1px;
+
+}
+.gridlines {
+  background-image: linear-gradient(var(--grid-color) 1px, transparent 1px), linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+  background-size: var(--grid-size) var(--grid-size);
+  background-position: -1px -1px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+
+

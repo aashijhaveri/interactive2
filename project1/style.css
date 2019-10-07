@@ -1,0 +1,185 @@
+/* this defines the helper grid */
+.gridlines {
+  /* change these as you need */
+  --grid-size:50px;
+ /*--grid-color:pink;*/
+}
+
+/* anything else you want to do 👇 */
+
+h1 {
+  color:#adffcb;
+  font-size:40px;
+  font-family:Bio Sans,serif;
+  font-weight:normal;
+  margin:10px;
+  margin-top:35px;
+  margin-bottom: 35px;
+  margin-left:35px;
+  line-height:47px;
+
+}
+
+h2{
+	color:#91cbed;
+	font-family:bio Sans,serif;
+	font-size:30px;
+	font-weight:lighter;
+	text-align:center;
+	margin:25px;
+	margin-left:35px;
+	margin-top:20px;
+	
+}
+
+p{
+	font-family: courier, serif;
+	font-size: 15px;
+	line-height: 20px;
+	margin:30px;
+	margin-top:40px;
+	color:#ede864;
+	font-weight:lighter;
+	
+
+}
+h3{
+
+	font-family: courier, serif;
+	font-size: 15px;
+	line-height: 20px;
+	margin:30px;
+	margin-top:40px;
+	color:#696e6e;
+	font-weight:lighter;
+	color:#ffc2eb;
+}
+
+.hindititle{
+	font-family:Devanagari Sangam MN,sans serif;
+	font-size: 50px;
+	font-weight:bold;
+	margin:40px;
+	line-height:60px;
+
+}
+
+.iphone{
+	width:200px;
+	margin:40px;
+	margin-left:-10px;
+}
+
+.laptop{
+	width:200px;
+	margin-bottom:47px;
+	margin-left:-37px;
+}
+
+.link1{
+	font-family: courier, serif;
+	font-size: 25px;
+	line-height: 20px;
+	margin:30px;
+	margin-top:100px;
+	color:#ede864;
+	font-weight:lighter;
+	
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:hover{
+	color: #faebf0;
+}
+
+.link2{
+	font-family: courier, serif;
+	font-size: 25px;
+	line-height: 20px;
+	margin:30px;
+	margin-top:100px;
+	color:#ede864;
+	font-weight:lighter;
+	
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:hover{
+	color: #faebf0;
+}
+
+.link3{
+	font-family: courier, serif;
+	font-size: 25px;
+	line-height: 30px;
+	margin:30px;
+	margin-top:1px;
+	color:#ede864;
+	font-weight:lighter;
+	display:block;
+	
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:hover{
+	color: #faebf0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
