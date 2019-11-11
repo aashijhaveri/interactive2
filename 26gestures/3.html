@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ग</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="css/3.css">
+    
+  </head>  
+
+  <body>
+
+    <main>
+        <section id="left">
+            
+
+            <div class="letters">
+                <h1>ग</h1>
+                <h2>ग</h2>
+            </div>
+            <p>से</p>
+            <h3>गरम</h3>
+
+
+        </section>
+
+        <section id="right">
+            
+            <div class="fire">
+
+            <img class="fire1" src="./image/fire1.svg">
+            <img class="fire2" src="./image/fire2.svg">
+            <img class="fire3" src="./image/fire3.svg">
+            <img class="fire4" src="./image/fire4.svg">
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+    
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+
+    $(".fire1").mouseover(function(){
+        $(this).fadeOut(100);
+        $(".fire2").fadeIn(100);
+        
+    });
+
+    $(".fire2").mouseover(function(){
+        $(this).fadeOut(100);
+        $(".fire3").fadeIn(100);
+        
+    });
+
+    $(".fire3").mouseover(function(){
+        $(this).fadeOut(100);
+        $(".fire4").fadeIn(100);
+        
+    });
+    
+    
+
+
+
+
+  </script>
+
+  </body>
+</html>
+

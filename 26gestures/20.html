@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>त</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="css/20.css">
+    
+  </head>  
+
+  <body>
+    <main>
+
+      <section id="left">
+
+          <div class="letters">
+            <h1>ब</h1>
+            <h2>ब</h2>
+          </div>
+        <p>से</p>
+        <h3>बढ़ाना</h3>
+            
+      </section>
+
+      <section id="right">
+
+        <div id='macro'></div>
+        <div id='zoom'></div>
+        
+
+
+      </section>
+   </main>
+    
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+
+      var mouse = null;
+  var $zoom = $('div#zoom');
+  var $macro = $('div#macro');
+  var image = new Image();
+  var oriX = null,
+      oriY = null,
+      resizedX = $macro.width(),
+      resizedY = $macro.height();
+  image.src = 'https://upload.wikimedia.org/wikipedia/commons/6/62/Starsinthesky.jpg';
+  image.onload = function () {
+      oriX = image.width;
+      oriY = image.height;
+  }
+
+
+
+  document.onmousemove = function (event) {
+      mouse = {
+          x: event.pageX,
+          y: event.pageY,
+          offsetX: event.pageX - 105,
+          offsetY: event.pageY - 105,
+          corrX: event.pageX - $macro.position().left + resizedX / 2,
+          corrY: event.pageY - $macro.position().top + resizedY / 2
+      }
+
+      if (mouse.corrX > 0 && mouse.corrX < resizedX && mouse.corrY > 0 && mouse.corrY < resizedY) {
+          var x = -(mouse.corrX / resizedX) * oriX + resizedX / 4;
+          var y = -(mouse.corrY / resizedY) * oriY + resizedY / 4;
+          $('#debug2').text('x ' + x + ' y ' + y);
+          var bp = x + 'px ' + y + 'px';
+
+          $zoom.css('opacity', '1').css('background-position', bp);
+          $zoom.css('top', mouse.offsetY).css('left', mouse.offsetX);
+      } else {
+          $zoom.css('opacity', '0');
+      }
+
+  }
+
+    
+        
+
+
+
+   
+    
+    
+    
+
+
+
+
+  </script>
+
+  </body>
+</html>
+

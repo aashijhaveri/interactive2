@@ -1,0 +1,107 @@
+body{
+	margin:0;
+	padding:0;
+	
+}
+
+main {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap:20px;
+}
+
+section{
+	height:100vh;
+}
+
+#left{
+	background:#1bde52;
+}
+
+#right{
+	
+	background:yellow;
+}
+
+
+h1{
+	display: block;
+	position:absolute;
+	font-family: Volte Devanagari Bold, serif;
+	font-size:400px;
+	top:-104px;
+	left:65px;
+	margin:0px;
+	
+}
+
+h2{
+	display: block;
+	position:absolute;
+	font-family: Volte Devanagari Bold, serif;
+	font-size:400px;
+	margin:0px;
+	top:-120px;
+	left:50px;
+	color:#ff00c0;
+}
+
+p{
+	font-family: Volte Devanagari Bold, serif;
+	font-size:150px;
+	font-weight:bold;
+	top:171px;
+	margin:0px;
+	left:488px;
+	position: absolute;
+
+}
+
+h3{
+	font-family: Volte Devanagari Bold, serif;
+	font-size:240px;
+	font-weight:bold;
+	top:450px;
+	left:25px;
+	position: absolute;
+	margin:0px;
+}
+
+
+.txt h4 {
+		color: black;
+		font-size: 160px;
+		font-family: "Abril Fatface", serif;
+		transform: scale(1, 2.75);
+		text-align: center;
+		padding-top: 30px;
+}
+
+.switch {
+		color: black;
+		position: absolute;
+		font-size:50px;
+		left: 1030px;
+		top: 600px;
+		transition: alpha 1s ease;
+}
+
+.switch:hover {
+		cursor: pointer;
+		opacity: 1;
+		transition: all 2s ease;
+}
+
+.flashlight {
+		position: absolute;
+		z-index: 0;
+		height: 300px;
+		width: 300px;
+		border-radius: 150px;
+		background-color: yellow;
+		box-shadow: 1px 1px 100px yellow;
+}
+
+
+
+

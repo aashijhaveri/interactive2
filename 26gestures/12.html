@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ढ</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="css/12.css">
+    
+  </head>  
+
+  <body>
+    <main>
+
+      <section id="left">
+
+          <div class="letters">
+            <h1>ढ</h1>
+            <h2>ढ</h2>
+          </div>
+        <p>से</p>
+        <h3>ढोल</h3>
+            
+      </section>
+
+      <section id="right">
+
+        <img class="drum" src="image/drum.svg">
+        
+        
+        
+
+
+      </section>
+   </main>
+    
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+
+      var obj = document.createElement("audio");
+      obj.src = "image/sound.mov";
+      obj.volume = 0.3;
+      obj.autoPlay = false;
+      obj.preLoad = true;
+      obj.controls = true;
+
+      $(".drum").click(function() {
+        obj.play();
+        // obj.pause();
+      });
+    
+
+    
+        
+
+
+
+   
+    
+    
+    
+
+
+
+
+  </script>
+
+  </body>
+</html>
+

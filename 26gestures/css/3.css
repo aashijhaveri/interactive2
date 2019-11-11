@@ -1,0 +1,121 @@
+body{
+	margin:0;
+	padding:0;
+}
+main {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap:20px;
+}
+section{
+	height:100vh;
+}
+
+#left{
+	background:#1bde52;
+}
+
+#right{
+	
+	background:black;
+}
+
+h1{
+	display: block;
+	position:absolute;
+	font-family: Volte Devanagari Bold, serif;
+	font-size:400px;
+	top:-104px;
+	left:65px;
+	margin:0px;
+	
+}
+
+h2{
+	display: block;
+	position:absolute;
+	font-family: Volte Devanagari Bold, serif;
+	font-size:400px;
+	margin:0px;
+	top:-120px;
+	left:50px;
+	color:#ff00c0;
+}
+
+p{
+	font-family: Volte Devanagari Bold, serif;
+	font-size:150px;
+	font-weight:bold;
+	top:171px;
+	margin:0px;
+	left:488px;
+	position: absolute;
+
+}
+
+h3{
+	font-family: Volte Devanagari Bold, serif;
+	font-size:250px;
+	font-weight:bold;
+	top:450px;
+	left:80px;
+	position: absolute;
+	margin:0px;
+}
+
+.fire1{
+	height:700px;
+	width:700px;
+	top:0px;
+	left:0px;
+	position: relative;
+
+
+}
+
+.fire2{
+	height:700px;
+	width:700px;
+	top:20px;
+	left:0px;
+	position: relative;
+	display: none;
+
+}
+
+.fire3{
+	height:700px;
+	width:700px;
+	top:40px;
+	left:0px;
+	position: relative;
+	display: none;
+
+}
+
+.fire4{
+	height:700px;
+	width:700px;
+	top:60px;
+	left:0px;
+	position: relative;
+	display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

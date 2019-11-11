@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>26 Gestures</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+    
+  </head>  
+
+  <body>
+  	
+    <h1>Blinking</h1>
+    
+    
+    <div class="eyes">
+
+    	<img class="eye1" src="./image/eye1.svg">
+    	<img class="eye2" src="./image/eye2.svg">
+    </div>
+
+    <h2>Taking Glasses Off</h2>
+
+    <img class="landscape" src="./image/landscape.svg">
+  
+
+
+
+
+
+
+
+
+
+   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+
+  	$(".eye1").click(function(){
+  		$(this).toggle();
+  		$(".eye2").toggle();
+	});
+
+	$(".eye2").click(function(){
+  		$(this).toggle();
+  		$(".eye1").toggle();
+	});
+
+	$(".landscape").mouseover(function(){
+		$(".landscape").css("filter","blur");
+	});
+  	
+
+
+  </script>
+
+
+  </body>
+</html>
+

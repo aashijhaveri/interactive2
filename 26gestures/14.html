@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>त</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="css/14.css">
+    
+  </head>  
+
+  <body>
+    <main>
+
+      <section id="left">
+
+          <div class="letters">
+            <h1>थ</h1>
+            <h2>थ</h2>
+          </div>
+        <p>से</p>
+        <h3>थप्पड़</h3>
+            
+      </section>
+
+      <section id="right">
+
+        <img class="slap" src="./image/slap.svg">
+        <img class="slap1" src="./image/slap1.svg">
+
+        
+
+
+      </section>
+   </main>
+    
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+
+              
+$(".slap").click(function(){
+        $(".slap1").toggle()
+        $(".slap").toggle()
+
+    });
+
+$(".slap1").click(function(){
+        $(".slap").toggle()
+        $(".slap1").toggle()
+
+    });
+   
+   var obj = document.createElement("audio");
+      obj.src = "image/slap.mp3";
+      obj.volume = 0.3;
+      obj.autoPlay = false;
+      obj.preLoad = true;
+      obj.controls = true;
+
+      $(".slap").click(function() {
+        obj.play();
+        // obj.pause();
+      });
+    
+    
+    
+    
+
+
+
+
+  </script>
+
+  </body>
+</html>
+

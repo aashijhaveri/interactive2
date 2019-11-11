@@ -1,0 +1,108 @@
+body{
+	margin:0;
+	padding:0;
+	
+}
+
+main {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap:20px;
+}
+
+section{
+	height:100vh;
+}
+
+#left{
+	background:#1bde52;
+}
+
+#right{
+	
+	background:black;
+}
+
+
+h1{
+	display: block;
+	position:absolute;
+	font-family: Volte Devanagari Bold, serif;
+	font-size:400px;
+	top:-104px;
+	left:65px;
+	margin:0px;
+	
+}
+
+h2{
+	display: block;
+	position:absolute;
+	font-family: Volte Devanagari Bold, serif;
+	font-size:400px;
+	margin:0px;
+	top:-120px;
+	left:50px;
+	color:#ff00c0;
+}
+
+p{
+	font-family: Volte Devanagari Bold, serif;
+	font-size:150px;
+	font-weight:bold;
+	top:171px;
+	margin:0px;
+	left:488px;
+	position: absolute;
+
+}
+
+h3{
+	font-family: Volte Devanagari Bold, serif;
+	font-size:250px;
+	font-weight:bold;
+	top:450px;
+	left:60px;
+	position: absolute;
+	margin:0px;
+}
+
+div#macro {
+      position: absolute;
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/62/Starsinthesky.jpg);
+      height: 355px;
+      width: 482px;
+      background-size: contain;
+      border:10px solid white;
+
+      top: 340px;
+      left: 1030px;
+      margin-top: -127px;
+      margin-left: -191px;
+  }
+  footer {
+  }
+  div#zoom {
+      position: absolute;
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/62/Starsinthesky.jpg);
+      background-color: #dddddd;
+      background-position: 100px 100px;
+      background-repeat: no-repeat;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      opacity: 0;
+      border: 5px solid #ffffff;
+      box-shadow: 2px 2px 5px #444444, -2px -2px 4px #444444, inset 4px 4px 5px #222222;
+      cursor: crosshair;
+  }
+  footer {
+      position: fixed;
+      padding: 10px;
+      margin: 0;
+  }
+
+
+
+
+

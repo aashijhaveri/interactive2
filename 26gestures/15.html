@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>द</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="css/15.css">
+    
+  </head>  
+
+  <body>
+    <main>
+
+      <section id="left">
+
+          <div class="letters">
+            <h1>द</h1>
+            <h2>द</h2>
+          </div>
+        <p>से</p>
+        <h3>दिवाली</h3>
+            
+      </section>
+
+      <section id="right">
+
+        <div class="flashlight"></div>
+        <div class="txt"><h4>Diwali</h4></div>
+        <div class="switch">Light</div>
+
+                
+
+
+      </section>
+   </main>
+    
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script type="text/javascript">
+
+              
+$(".flashlight").hide();
+$(".txt").hide();
+
+/*--Flashlight Follows Mouse--*/
+$(".switch").click(function(){
+  $("#right").css("background-color","black");
+  $(".txt").show();
+  $(".flashlight").fadeIn("5000"); 
+  document.body.style.cursor = "none";
+  
+  $(".switch").click(function(){
+    $("#right").css("background-color","white");
+    $(".flashlight").hide();
+    document.body.style.cursor = "default";
+  });
+});
+
+  $("#right").mousemove(function(e){
+  $(".flashlight").css("top", e.clientY-150).css("left", e.clientX-150);
+});
+    
+    
+    
+    
+
+
+
+
+  </script>
+
+  </body>
+</html>
+

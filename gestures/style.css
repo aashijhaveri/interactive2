@@ -1,0 +1,58 @@
+
+body{
+	margin:0px;
+
+}
+
+.eyes{
+	position:relative;
+}
+
+.eye1{
+	position:relative;
+}
+
+.eye2{
+	position:relative;
+	display:none;
+	top:66px;
+}
+
+h1{
+	display: block;
+	position:relative;
+	font-family: Abril Fatface, serif;
+	left:550px;
+	top:50px;
+	font-size:100px;
+	margin:-40px;
+}
+
+
+
+.landscape{
+	position:relative;
+	top:-710px;
+	left:1470px;
+	filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+h2{
+	display: block;
+	position:relative;
+	font-family: Abril Fatface, serif;
+	left:1850px;
+	top:-760px;
+	font-size:100px;
+	margin:-70px;
+}
+
+
+
+
+
+
+
+
+
