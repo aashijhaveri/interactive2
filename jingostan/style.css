@@ -1,0 +1,90 @@
+body{
+	background-color:#e6bff5;
+}
+
+h1{
+	font-family:Rubik mono one, sans serif;
+	font-size:50px;
+	text-align: center;
+	margin-top:22px;
+}
+
+.modi1{
+	width:500px;
+	height:600px;
+	margin-top:-76px;
+	animation-name: modi;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+	animation-duration:2s;
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes modi{
+
+	0%{transform:rotate(0deg); }
+	25%{transform: rotate(40deg);}
+	50%{transform: rotate(0deg);}
+	75%{transform: rotate(-40deg);}
+	100%{transform: rotate(0deg);}
+}
+
+p{
+	font-family:inconsolata;
+	font-weight: lighter;
+	font-size:13px;
+	width:450px;
+	height:500px;
+	overflow: auto;
+	text-indent:10px;
+	margin-left:20px;
+}
+
+h2{
+	font-family:rubik mono one, sans serif;
+	font-size:50px;
+	text-align: center;
+	margin-top:50px;
+}
+
+
+
+.yogi1{
+	width:230px;
+	height:250px;
+}
+
+.cow{
+	width:230px;
+	height:170px;
+	top:-41px;
+	position: relative;
+}
+
+.lotus{
+	width:230px;
+	height:220px;
+	top:-21px;
+	position: relative;
+}
+
+.chow{
+	width:230px;
+	height:320px;
+	top:-21px;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
