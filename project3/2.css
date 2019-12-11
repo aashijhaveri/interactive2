@@ -1,0 +1,155 @@
+body{
+	background-color:black;
+}
+
+
+
+.circle{
+  	height: 400px;
+  	width: 420px;
+  	
+  	position: relative;
+  	top:-4px;
+    left:69px;
+}
+
+
+.circle1{
+  	height: 400px;
+  	width: 420px;
+  
+  	
+  	top:-404px;
+  	left:490px;
+  	position: relative;
+}
+
+.shapes{
+	position: relative;
+	display: all;
+}
+
+.circle2{
+    height: 400px;
+    width: 420px;
+   
+    
+    top:-404px;
+    left:69px;
+    position: relative;
+}
+
+.circle3{
+    height: 400px;
+    width: 420px;
+    
+  
+    top:-803px;
+    left:489px;
+    position: relative;
+}
+.circle4{
+    height: 400px;
+    width: 420px;
+    
+    top:-1605px;
+    left:913px;
+    position: relative;
+}
+
+
+.circle5{
+    height: 400px;
+    width: 420px;
+    
+    top:-1605px;
+    left:913px;
+    position: relative;
+}
+
+.flashlight {
+    position: absolute;
+    z-index: 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 150px;
+    background-color: blueviolet;
+    box-shadow: 2px 1px 100px blueviolet;
+}
+
+.salaam{
+  font-family:Meno Banner, serif;
+  font-size:30px;
+  font-weight: bold;
+  color:black;
+  top:164px;
+  left:81px;
+}
+
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+
+.rabi{
+  font-family:Meno Banner, serif;
+  font-size:30px;
+  font-weight: bold;
+  color:black;
+  top:-225px;
+  left:81px;
+}
+
+.nazim{
+  font-family:Meno Banner, serif;
+  font-size:30px;
+  font-weight: bold;
+  color:black;
+  top:-225px;
+  left:590px;
+}
+
+.osip{
+  font-family:Meno Banner, serif;
+  font-size:30px;
+  font-weight: bold;
+  color:black;
+  top:-650px;
+  left:590px;
+}
+
+.lui{
+  font-family:Meno Banner, serif;
+  font-size:30px;
+  font-weight: bold;
+  color:black;
+  top:-1420px;
+  left:1065px;
+}
+
+.caro{
+  font-family:Meno Banner, serif;
+  font-size:30px;
+  font-weight: bold;
+  color:black;
+  top:-1450px;
+  left:1065px;
+}
+
+
+
