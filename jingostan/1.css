@@ -9,7 +9,7 @@ h1{
 	margin-top:22px;
 }
 
-.modi1{
+.yogi1{
 	width:500px;
 	height:600px;
 	margin-top:-76px;
@@ -47,39 +47,6 @@ h2{
 	text-align: center;
 	margin-top:50px;
 }
-
-.yogi1{
-	
-	height:300px;
-	width:280px;
-	position: relative;
-	
-}
-
-.cow{
-	top:-250px;
-	left:250px;
-	width:250px;
-	height:190px;
-	position: relative;
-}
-
-.lotus{
-	top:-250px;
-	left:10px;
-	width:250px;
-	height:230px;
-	position: relative;
-}
-
-.chow{
-	top:-500px;
-	left:250px;
-	width:250px;
-	height:330px;
-	position: relative;
-}
-
 
 
 
