@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>For, in your tongue i cannot hide.</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+    
+  </head>  
+
+  <body>
+
+
+    <div class="music">For, in your tongue I cannot fit.</div>
+    <div class="flashlight"></div>
+    
+    <div class="shapes">
+        
+        <div class="circle salaam">
+            <a href="1.html" style="text-decoration: none;">Mangesh Padgaonkar</a>
+        </div>
+
+        <div class="circle1 nazim">
+            <a href="3.html" style="text-decoration: none;">Nazim Hikme</a>
+        </div>
+        <div class="circle2 rabi"><a href="4.html" style="text-decoration: none;">Rabindranath Tagore</a></div>
+        <div class="circle3 osip"><a href="5.html" style="text-decoration: none;">Osip Mandelstam</a></div>
+        <div class="circle4 lui"><a href="6.html" style="text-decoration: none;">Liu Xia</a></div>
+        <div class="circle5 caro">Carolyn Forche</div>
+
+    </div>
+
+    <audio class="music" id="song1">
+        <source src="sound.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio class="circle" id="song2">
+        <source src="track1.wav" type="audio/wav">
+    </audio>
+
+    <audio class="circle1" id="song3">
+        <source src="track2.wav" type="audio/wav">
+    </audio>
+    
+    <audio class="circle2" id="song4">
+        <source src="track3.wav" type="audio/wav">
+    </audio>
+
+    <audio class="circle3" id="song5">
+        <source src="track4.wav" type="audio/wav">
+    </audio>
+
+    <audio class="circle4" id="song6">
+        <source src="track5.wav" type="audio/wav">
+    </audio>
+
+    <audio class="circle5" id="song7">
+        <source src="track6.wav" type="audio/wav">
+    </audio>
+    
+    
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+
+    $(".music").click(function(){
+        $("#song1")[0].play();
+        $(".music").fadeOut(10000)
+        $(".shapes").toggle(30000)
+    });
+
+    $(".circle").mouseover(function(){
+        $("#song2")[0].play();
+    });
+
+    $(".circle").mouseleave(function(){
+        $("#song2")[0].pause();
+      });
+
+    $(".circle1").mouseover(function(){
+        $("#song3")[0].play();
+    });
+
+    $(".circle1").mouseleave(function(){
+        $("#song3")[0].pause();
+      });
+    
+    $(".circle2").mouseover(function(){
+        $("#song4")[0].play();
+    });
+
+    $(".circle2").mouseleave(function(){
+        $("#song4")[0].pause();
+      });
+
+    $(".circle3").mouseover(function(){
+        $("#song5")[0].play();
+    });
+
+    $(".circle3").mouseleave(function(){
+        $("#song5")[0].pause();
+      });
+
+    $(".circle4").mouseover(function(){
+        $("#song6")[0].play();
+    });
+
+    $(".circle4").mouseleave(function(){
+        $("#song6")[0].pause();
+      });
+
+    $(".circle5").mouseover(function(){
+        $("#song7")[0].play();
+    });
+
+    $(".circle5").mouseleave(function(){
+        $("#song7")[0].pause();
+      });
+
+    $("body").mousemove(function(e){
+        $(".flashlight").css("top", e.clientY-150).css("left", e.clientX-150);
+    });
+    
+
+
+
+
+    </script>
+
+
+
+
+
+
+  </body>
+</html>
+
