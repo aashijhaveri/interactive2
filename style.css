@@ -1,0 +1,76 @@
+body{
+	background-color:#4bf880;
+}
+
+h1{
+	font-family: space mono;
+	font-size:100px;
+	color:white;
+	margin-top:30px;
+	position: relative;
+}
+
+h2{
+	font-family: space mono;
+	font-size:100px;
+	color:black;
+	top:-217px;
+	position: relative;
+}
+
+h4{
+	font-family: space mono;
+	font-size:100px;
+	color:black;
+	top:-485px;
+	position: relative;
+}
+
+p{
+	font-family:moret;
+	position: relative;
+	top:-300px;
+	font-size:30px;
+	margin-left:20px;
+
+}
+
+h3{
+	font-family:moret;
+	position: relative;
+	top:-300px;
+	font-size:50px;
+	margin-left:20px;
+
+}
+
+.modi{
+	width:200px;
+	height:300px;
+	position: relative;
+	top:-600px;
+	left:250px;
+}
+
+.tv{
+	width:191px;
+	height:157px;
+	top:-300px;
+	position: relative;
+}
+
+.black{
+	position: relative;
+	width:200px;
+	height:300px;
+	top:-622px;
+	left:200px;
+}
+
+
+
+
+
+
+
+
